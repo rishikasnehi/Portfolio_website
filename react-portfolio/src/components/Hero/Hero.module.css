@@ -35,7 +35,7 @@
     margin-bottom: 52px;
 }
 
-.contactBtn{
+.contactBtn {
     text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-text);
@@ -46,7 +46,7 @@
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.heroImg{
+.heroImg {
     width: 50;
     z-index: 1;
 
@@ -56,19 +56,21 @@
     animation-timing-function: ease-in-out;
 }
 
-@keyframes floating{
-    0%{
+@keyframes floating {
+    0% {
         transform: translate(0, 0px);
     }
+
     50% {
         transform: translate(0, 10px);
     }
+
     100% {
         transform: translate(0, -0px);
     }
 }
 
-.topBlur{
+.topBlur {
     position: absolute;
     width: 50vw;
     height: 50vw;
@@ -82,7 +84,7 @@
     z-index: 0;
 }
 
-.bottomBlur{
+.bottomBlur {
     position: absolute;
     width: 70vw;
     height: 50vw;
@@ -97,11 +99,11 @@
 }
 
 @media screen and (max-width: 830px) {
-    .container{
+    .container {
         flex-direction: column-reverse;
     }
 
-    .content{
+    .content {
         align-items: center;
     }
 }
