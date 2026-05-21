@@ -31,6 +31,16 @@
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
+    transition: transform .2s ease, font-weight .2s ease;
+}
+
+.menuItems a:hover {
+    transform: scale(1.05);
+    font-weight: 700;
+}
+
+.menuBtn {
+    display: none;
 }
 
 @media screen and (max-width: 830px) {

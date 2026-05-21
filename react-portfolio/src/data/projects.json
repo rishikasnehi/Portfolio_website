@@ -1,26 +1,50 @@
 [
   {
-    "title": "Project A",
+    "title": "Resume Engine",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Built a scalable full-stack resume builder with JWT authentication, Spring Boot APIs, React UI, and MongoDB for persistent profile storage.",
+    "skills": ["Spring Boot", "React", "MongoDB"],
+    "demo": "https://github.com/rishikasnehi/resume-engine",
+    "source": "https://github.com/rishikasnehi/resume-engine"
   },
   {
-    "title": "Project B",
+    "title": "AI Chatbot",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Developed a Gemini API-powered chatbot using Streamlit, Python, and prompt engineering to support multi-turn conversations and response optimization.",
+    "skills": ["Python", "Streamlit", "Gemini API"],
+    "demo": "https://github.com/rishikasnehi/AI-chatbot",
+    "source": "https://github.com/rishikasnehi/AI-chatbot"
   },
   {
-    "title": "Project C",
+    "title": "Portfolio Website",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Created a responsive personal portfolio using React, JavaScript, and CSS with polished navigation, mobile layout, and project showcases.",
+    "skills": ["React", "JavaScript", "CSS"],
+    "demo": "https://github.com/rishikasnehi/Portfolio_website",
+    "source": "https://github.com/rishikasnehi/Portfolio_website"
+  },
+  {
+    "title": "Snake Game",
+    "imageSrc": "projects/project.png",
+    "description": "Implemented a modular Python Snake game using OOP design, clean class separation, and interactive gameplay logic.",
+    "skills": ["Python", "OOP"],
+    "demo": "https://github.com/rishikasnehi/Snake_Game-using-python",
+    "source": "https://github.com/rishikasnehi/Snake_Game-using-python"
+  },
+  {
+    "title": "Splitwise Application",
+    "imageSrc": "projects/project.png",
+    "description": "Built an expense-splitting CLI app with debt reconciliation logic, efficient data structures, and multi-user transaction support.",
+    "skills": ["Python", "Algorithms", "CLI"],
+    "demo": "https://github.com/rishikasnehi/Splitwise-application-using-Python",
+    "source": "https://github.com/rishikasnehi/Splitwise-application-using-Python"
+  },
+  {
+    "title": "Money Manager",
+    "imageSrc": "projects/project.png",
+    "description": "Designed a C++ transaction system with file persistence, categorized expense tracking, and modular OOP architecture.",
+    "skills": ["C++", "File I/O", "OOP"],
+    "demo": "https://github.com/rishikasnehi/Money-Manager-Application",
+    "source": "https://github.com/rishikasnehi/Money-Manager-Application"
   }
 ]

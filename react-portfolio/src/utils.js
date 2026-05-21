@@ -1,3 +1,6 @@
 export const getImageUrl = (path) => {
-    return new URL(`/assets/${path}`, window.location.href).href;
+    // Resolve static assets from the site root. When `assets` is used as Vite's
+    // `publicDir`, its subfolders are copied to the dist root, so use an
+    // absolute path starting at `/` for both dev and production.
+    return new URL(`/${path}`, window.location.href).href;
 };
